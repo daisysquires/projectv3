@@ -1,0 +1,162 @@
+
+  
+
+
+.background-image {
+    background-image: url(Map\ 2\ .jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 290px;
+    background-color: black;
+    
+}
+
+.background-image2 {
+    background-image: url(gold\ dust.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.title {
+ 
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(243, 162, 11);
+
+}
+
+.welcome {
+    font-size: 100px;
+}
+
+.menu {
+    font-size: 70px;
+}
+
+.bookings {
+    font-size: 70px;
+}
+
+
+.timetable {
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1em;
+    font-size: 25px;
+    font-family:'Crimson Text', sans-serif;
+    color: white
+    
+}
+
+
+
+.background {
+    background-color: rgb(0, 0, 0);
+}
+
+ul {
+    height: 300px;
+    list-style: none;
+    height: 300px;
+   font-size: 30px;
+   color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+.flex-menu {
+ display: flex;
+ flex-direction: row;
+}
+
+.starter-container {
+    height: 350px;
+    width: 300px;
+    border: 2px solid;
+    border-color: orange;
+    border-style: groove;
+    background-color: rgba(255, 166, 0, 0.418);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.main-container {
+    height: 350px;
+    width: 300px;
+    border: 2px solid;
+    border-color: orange;
+    border-style: groove;
+    background-color: rgba(255, 166, 0, 0.418);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.dessert-container {
+    height: 350px;
+    width: 300px;
+    border: 2px solid;
+    border-color: orange;
+    border-style: groove;
+    background-color: rgba(255, 166, 0, 0.418);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.starter-text {
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   color: orange;
+}
+
+.main-text {
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   color: orange;
+}
+
+.dessert-text {
+    height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   color: orange;
+}
+
+.starter-container:hover::before .no-hover-starter {
+    display: block;
+}
+
+.starter-container:hover .starter-items {
+    display: block;
+}
+
+.booking-text {
+    color: orange;
+    margin-left: 70px;
+}
